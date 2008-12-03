@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2469
+
+http://github.com/einars/translit.vim
+
+This plugin allows you to write texts in transliterated russian (or any other language you'll write a definition for). That means, you write "Cheburashka" and it gets automagically converted to "Чебурашка", or write "Ellada" and it converts to "Ελλαδα"
+
+This plugin is loosely based on russian_plansliterated.vim plugin by Krzystof Goj (http://www.vim.org/scripts/script.php?script_id=2401) and was used as my playground for learning vimscript.
+
+Basic Usage:
+Drop plugin under ~/.vim/plugins and switch translit mode on/off with Ctrl-Shift-t.
+
+Read the file for more help on configuration and usage.
+
