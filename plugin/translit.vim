@@ -86,12 +86,12 @@ endfunction
 " all-lowercase mappings are automatically applied to uppercase as well
 
 call TranslitAddMapping("translit.ru",
-    \ 'a:а, b:б, v:в, g:г, d:д, e:е, jo:ё, zh:ж, z:з, i:и, j:й, k:к, l:л, m:м, n:н,' .
-    \ 'o:о, p:п, r:р, s:с, t:т, u:у, f:ф, h:х, c:ц, ch:ч, sh:ш, shh:щ, y:ы, je:э, ' .
-    \ 'ju:ю, ja:я, #:ъ, ##:Ъ, '':ь, '''':Ь')
+    \ 'a:а, b:б, v:в, g:г, d:д, e:е, jo:ё, yo:ё, zh:ж, z:з, i:и, j:й, k:к, l:л, m:м, n:н,' .
+    \ 'o:о, p:п, r:р, s:с, t:т, u:у, f:ф, h:х, x:х, c:ц, ch:ч, sh:ш, w:ш, shh:щ, y:ы, je:э, ' .
+    \ 'ju:ю, yu:ю, ja:я, ya:я, #:ъ, ##:Ъ, '':ь, '''':Ь')
 
 call TranslitAddMapping("planslit",
-    \ 'a:а, b:б, w:в, v:в, g:г, d:д, e:е, Je:Е, je:е, jo:ё, z:з, ż:ж, ''e:з, i:и,' .
+    \ 'a:а, b:б, w:в, v:в, g:г, d:д, e:е, je:е, jo:ё, z:з, ż:ж, ''e:з, i:и,' .
     \ 'j:й, k:к, l:л, ł:л, m:м, n:н, o:о, p:п, r:р, s:с, t:т, u:у, f:ф, h:х, x:х,' .
     \ 'c:ц, cz:ч, sz:ш, szcz:щ, ~`:Ъ, `:ъ, y:ы, ~'':Ь, '':ь, e'':э, ju:ю, ja:я')
 
